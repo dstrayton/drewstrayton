@@ -1,12 +1,4 @@
-/* EDIT YOUR CONTENT HERE. Text is plain text; keep quotes and commas intact.
- * HEADSHOT: put headshot.jpg in assets/images/ and change heroImage below
- * to "assets/images/headshot.jpg"; update heroImageAlt to "Drew Strayton".
- * COLORS / LAYOUT: styles.css. New sections: script.js.
- * PORTFOLIO PROJECTS below remain examples; replace them with your projects.
- * Duplicate a project object to add another, using a unique id.
- * Gallery example: [{"src":"assets/images/test.jpg","alt":"Prototype","caption":"First iteration"}]
- * Resume content is based on the supplied resume; PDF is included unchanged.
- */
+
 const portfolio = {
   "name": "Drew Strayton",
   "initials": "DS",
@@ -15,8 +7,8 @@ const portfolio = {
   "intro": "I turn ideas into practical designs through CAD, hands-on prototyping, and testing. My experience spans custom fabrication, manufacturing automation, and product development.",
   "about": "I’m Drew Strayton, a mechanical engineer with a background in both mechanical and electrical engineering. I graduated from Wake Forest University in 2024 and am pursuing a Master of Engineering in Design and Technology Innovation at Duke University, with expected completion in December 2027.",
   "approach": "My experience at Parker Hannifin and Dimensional Innovations has taken me from CAD models and rapid prototypes to automated equipment and fabrication-ready drawing packages. I enjoy connecting design with how things are made, using testing and iteration to improve performance, usability, and manufacturability. I’ve also taught manual and CNC machining at the make717 community makerspace.",
-  "heroImage": "assets/images/headshot-placeholder.svg",
-  "heroImageAlt": "Headshot placeholder for Drew Strayton",
+  "heroImage": "assets/images/headshot.jpg",
+  "heroImageAlt": "Headshot for Drew Strayton",
   "portrait": "",
   "portraitAlt": "Drew Strayton",
   "email": "dstray44@gmail.com",
