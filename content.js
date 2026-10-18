@@ -1,4 +1,3 @@
-ple
 const portfolio = {
   "name": "Drew Strayton",
   "initials": "DS",
