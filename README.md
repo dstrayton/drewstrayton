@@ -1,3 +1,21 @@
+# Drew Strayton — updated website
+
+The landing page, About, and Resume are personalized. The supplied PDF is included as the downloadable resume. Portfolio cards are still editable examples.
+
+## Add your headshot
+
+1. Put your headshot in `assets/images/` and name it `headshot.jpg`.
+2. In `content.js`, change `heroImage` to `"assets/images/headshot.jpg"` and `heroImageAlt` to `"Drew Strayton"`.
+3. Save and refresh. Adjust `.hero-photo` → `object-position` in `styles.css` if the crop needs changing.
+
+Until then, a labeled neutral placeholder appears in the photo position.
+
+## Update your existing GitHub website
+
+Upload `content.js`, `script.js`, `styles.css`, `index.html`, and the `assets` folder to the same paths in your existing repository and commit. Keep `index.html` at the repository root. Your Pages settings do not need changing. The PDF must retain `assets/documents/Strayton_Resume.pdf` as its path.
+
+---
+
 # Your engineering portfolio
 
 A fully editable portfolio in plain HTML, CSS, and JavaScript. No install, build command, paid service, or framework required. All sample projects and resume entries are placeholders: replace them before publishing.

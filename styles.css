@@ -146,3 +146,12 @@ figcaption { font-size:12px; color:var(--muted); margin-top:10px; }
   .page-heading { padding:20px 0; } .resume-layout { display:block; }
   .resume-layout aside { margin-bottom:30px; } .resume-entry { break-inside:avoid; }
 }
+
+/* Personalized landing page / portrait. Adjust object-position to change the crop. */
+.hero-subtitle { color:var(--blue); font-size:25px; font-weight:500; margin:-10px 0 24px; letter-spacing:-.5px; }
+.hero-art { transform:none; }
+.hero-photo { height:410px; object-position:center 30%; }
+.resume-entry { grid-template-columns:1fr; }
+.resume-entry ul { grid-column:1; }
+.dates { margin-top:-6px; }
+@media(max-width:600px) { .hero-photo { height:360px; } .hero-subtitle { font-size:22px; } }
