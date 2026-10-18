@@ -35,9 +35,9 @@ const portfolio = {
       "image": "",
       "imageAlt": "Project photograph description",
       "tools": [
-        "???",
-        "???",
-        "???"
+        "...",
+        "...",
+        "..."
       ],
       "role": "My specific contribution",
       "timeline": "Project duration",
