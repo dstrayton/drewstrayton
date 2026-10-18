@@ -29,7 +29,7 @@ const portfolio = {
     {
       "id": "design-build",
       "title": "Example Project",
-      "category": "Mechanical design",
+      "category": "Example Project",
       "year": "20XX",
       "summary": "Project Intro",
       "image": "",
@@ -50,15 +50,15 @@ const portfolio = {
     },
     {
       "id": "prototype",
-      "title": "Prototype & test",
+      "title": "Example Project",
       "category": "Example Project",
       "year": "20XX",
-      "summary": "...",
+      "summary": "Project Intro",
       "image": "",
       "imageAlt": "My image",
       "tools": [
-        "Prototyping",
-        "Analysis"
+        "...",
+        "..."
       ],
       "role": "My contribution",
       "timeline": "Project duration",
@@ -71,10 +71,10 @@ const portfolio = {
     },
     {
       "id": "electronics",
-      "title": "Electronics exploration",
-      "category": "Electronics",
+      "title": "Example Project",
+      "category": "Example Project",
       "year": "20XX",
-      "summary": "...",
+      "summary": "Project intro",
       "image": "",
       "imageAlt": "...",
       "tools": [
