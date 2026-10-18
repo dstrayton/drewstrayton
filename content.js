@@ -64,7 +64,7 @@ const portfolio = {
       "role": "My contribution",
       "timeline": "Project duration",
       "challenge": "...",
-      "process": ...",
+      "process": "...",
       "outcome": "...",
       "gallery": [],
       "link": "",
