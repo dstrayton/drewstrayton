@@ -1,4 +1,4 @@
-
+ple
 const portfolio = {
   "name": "Drew Strayton",
   "initials": "DS",
@@ -29,22 +29,22 @@ const portfolio = {
   "projects": [
     {
       "id": "design-build",
-      "title": "Design / build project",
+      "title": "Example Project",
       "category": "Mechanical design",
       "year": "20XX",
-      "summary": "Introduce your project: what you built, for whom, and why it matters.",
+      "summary": "Project Intro",
       "image": "",
-      "imageAlt": "Describe your project photograph",
+      "imageAlt": "Project photograph description",
       "tools": [
-        "CAD",
-        "Fabrication",
-        "Testing"
+        "???",
+        "???",
+        "???"
       ],
-      "role": "Your specific contribution",
+      "role": "My specific contribution",
       "timeline": "Project duration",
-      "challenge": "Describe the problem, the design requirements, and the constraints you worked within.",
-      "process": "Explain the concepts you explored, how you selected a direction, and what changed after prototyping.",
-      "outcome": "Describe what happened. Include measured results when available and what you would improve next.",
+      "challenge": "...",
+      "process": "...",
+      "outcome": "...",
       "gallery": [],
       "link": "",
       "linkLabel": "View project files"
@@ -52,20 +52,20 @@ const portfolio = {
     {
       "id": "prototype",
       "title": "Prototype & test",
-      "category": "Product development",
+      "category": "Example Project",
       "year": "20XX",
-      "summary": "Show how you moved from an initial concept to a prototype, then used testing to improve it.",
+      "summary": "...",
       "image": "",
-      "imageAlt": "Your prototype",
+      "imageAlt": "My image",
       "tools": [
         "Prototyping",
         "Analysis"
       ],
-      "role": "Your specific contribution",
+      "role": "My contribution",
       "timeline": "Project duration",
-      "challenge": "What did this prototype need to demonstrate?",
-      "process": "Walk through the most important design decisions and test methods.",
-      "outcome": "Summarize the results and the lessons that informed the next version.",
+      "challenge": "...",
+      "process": ...",
+      "outcome": "...",
       "gallery": [],
       "link": "",
       "linkLabel": "View project files"
@@ -75,18 +75,18 @@ const portfolio = {
       "title": "Electronics exploration",
       "category": "Electronics",
       "year": "20XX",
-      "summary": "Use this space for a microcontroller, sensor, circuit, or other engineering project.",
+      "summary": "...",
       "image": "",
-      "imageAlt": "Your electronics project",
+      "imageAlt": "...",
       "tools": [
-        "Microcontrollers",
-        "Circuit design"
+        "...",
+        "..."
       ],
-      "role": "Your specific contribution",
+      "role": "My specific contribution",
       "timeline": "Project duration",
-      "challenge": "Explain the function you wanted to achieve and any power, cost, or size constraints.",
-      "process": "Describe your circuit, code, prototyping, and troubleshooting process.",
-      "outcome": "Explain what works, what you measured, and what you learned.",
+      "challenge": "...",
+      "process": "...",
+      "outcome": "...",
       "gallery": [],
       "link": "",
       "linkLabel": "View code"
