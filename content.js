@@ -28,25 +28,27 @@ const portfolio = {
   "projects": [
     {
       "id": "design-build",
-      "title": "Example Project",
-      "category": "Example Project",
-      "year": "20XX",
-      "summary": "Project Intro",
+      "title": "Cystoscope Design",
+      "category": "Medical device design",
+      "year": "",
+      "summary": "A handheld cystoscope design study spanning concept sketches, CAD development, component integration, manufacturing, and structural analysis.",
       "image": "assets/images/Cystoscope.PNG",
-      "imageAlt": "Cystoscope",
+      "imageAlt": "Cystoscope design rendering",
+      "page": "cystoscope.html",
       "tools": [
-        "...",
-        "...",
-        "..."
+        "Fusion 360",
+        "Mechanical Design",
+        "Design for Manufacturing",
+        "FEA"
       ],
-      "role": "My specific contribution",
-      "timeline": "Project duration",
+      "role": "Concept development and mechanical design",
+      "timeline": "Academic design project",
       "challenge": "...",
       "process": "...",
       "outcome": "...",
       "gallery": [],
       "link": "",
-      "linkLabel": "View project files"
+      "linkLabel": "View project"
     },
     {
       "id": "prototype",
