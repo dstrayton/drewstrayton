@@ -32,8 +32,8 @@ const portfolio = {
       "category": "Example Project",
       "year": "20XX",
       "summary": "Project Intro",
-      "image": "",
-      "imageAlt": "Project photograph description",
+      "image": "assets/images/Cystoscope.png",
+      "imageAlt": "Cystoscope",
       "tools": [
         "...",
         "...",
