@@ -10,7 +10,22 @@ function projectImage(p, i) {
   return p.image ? `<img src="${safeURL(p.image)}" alt="${e(p.imageAlt)}" loading="lazy">` : artwork(i);
 }
 function card(p, i) {
-  return `<a class="project-card" href="#project/${encodeURIComponent(p.id)}"><div class="project-image">${projectImage(p, i)}</div><div class="card-meta"><span>${e(p.category)}</span><span>${e(p.year)}</span></div><h3>${e(p.title)} <span aria-hidden="true">↗</span></h3><p>${e(p.summary)}</p><div class="tags">${tags(p.tools)}</div></a>`;
+  const destination = p.page
+    ? safeURL(p.page)
+    : `#project/${encodeURIComponent(p.id)}`;
+
+  return `
+    <a class="project-card" href="${destination}">
+      <div class="project-image">${projectImage(p, i)}</div>
+      <div class="card-meta">
+        <span>${e(p.category)}</span>
+        <span>${e(p.year)}</span>
+      </div>
+      <h3>${e(p.title)} <span aria-hidden="true">↗</span></h3>
+      <p>${e(p.summary)}</p>
+      <div class="tags">${tags(p.tools)}</div>
+    </a>
+  `;
 }
 function home() {
  return `<section class="hero"><div class="hero-copy"><h1>${e(portfolio.headline).replace(/\n/g, '<br>')}</h1>${portfolio.subtitle ? `<p class="hero-subtitle">${e(portfolio.subtitle)}</p>` : ''}<p class="intro">${e(portfolio.intro)}</p><div class="actions"><a class="button primary" href="#portfolio">Explore my work <span>↗</span></a><a class="text-link" href="#resume">View resume →</a></div></div><div class="hero-art">${portfolio.heroImage ? `<img class="hero-photo" src="${safeURL(portfolio.heroImage)}" alt="${e(portfolio.heroImageAlt)}">` : artwork(0)}</div></section>
