@@ -32,7 +32,7 @@ const portfolio = {
       "category": "Example Project",
       "year": "20XX",
       "summary": "Project Intro",
-      "image": "assets/images/Cystoscope.png",
+      "image": "assets/images/Cystoscope.PNG",
       "imageAlt": "Cystoscope",
       "tools": [
         "...",
